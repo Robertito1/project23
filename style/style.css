@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+body {
+  background: #ffffff;
+  font-family: "Rubik", sans-serif;
+}
+
+/* header */
+.nav-item {
+  padding: 5px 30px;
+}
+.nav-link {
+  color: white;
+  font-weight: 300;
+}
+.navbar-toggler {
+  color: rgb(255, 249, 249);
+  background-color: blanchedalmond;
+}
+.active {
+  font-weight: 900;
+}
+/* HERO STYLES */
+.hero-section {
+  /* background-color: #010101; */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../assets/IMG-20200906-WA0005.jpg");
+  background-size: 350px;
+  padding: 10px 60px;
+}
+
+.hero-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 140px 0px 0px 0px;
+}
+
+/* ABOUT ME */
+.heading {
+  color: #283e56;
+}
+.intro-text {
+  padding-top: 150px;
+  width: 40vw;
+}
+.intro-image {
+  margin-left: 100px;
+  padding-left: 50px;
+  height: 100vh;
+}
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0px 0px 0px;
+  padding: 60px;
+}
+/* MY SKILLS */
+.heading {
+  color: #283e56;
+}
+.my-skills {
+  padding: 60px;
+  width: 50vw;
+}
+
+.card-deck {
+  padding: 60px;
+}
+
+.skill-cards {
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  padding: 25px;
+}
+.card-title {
+  padding: 0px 50px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  color: #283e56;
+}
+.card-icons {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.view-details-btn {
+  display: flex;
+  margin: 0 auto;
+  border: none;
+  background-color: #ffde25;
+  padding: 10px 13px;
+  border-radius: 5px;
+}
+/* SERVICES */
+.heading {
+  color: #283e56;
+}
+.services {
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 45vw;
+}
+
+.service {
+  padding: 20px 60px;
+}
+.services-illustrations {
+  background-color: #1989ac;
+}
+.service-text {
+  background-color: #ecf9ff;
+  padding: 25px 50px;
+}
+.service-text-title {
+  color: #283e56;
+  font-weight: 700;
+}
+.service-btn {
+  border: none;
+  background-color: #ffde25;
+  padding: 10px 13px;
+  border-radius: 5px;
+}
+.smiley-face {
+  height: 300px;
+  width: 300px;
+}
+
+.prompt-text {
+  padding: 70px 50px;
+}
+
+/* footer */
+#main-footer {
+  padding: 60px 0px;
+  background: #283e56;
+  color: #ffffff;
+}
+
+.icon {
+  color: #ffffff;
+}
+.icon-container {
+  border-radius: 50%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #38526f;
+  color: #ffffff;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1290px) {
+  .intro-container {
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+    padding: 60px 10px;
+  }
+  .intro-image {
+    height: 600px;
+    margin-left: 30px;
+  }
+  .intro-text {
+    width: 500px;
+    margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .intro-container {
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+    padding: 60px;
+  }
+  .intro-image {
+    height: 600px;
+    margin-left: 30px;
+    order: 1;
+  }
+  .intro-text {
+    width: 500px;
+    margin-left: 40px;
+    order: 2;
+  }
+  .heading {
+    display: flex;
+    justify-content: center;
+  }
+  .about-me-text {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .intro-image {
+    height: 600px;
+    margin-left: 30px;
+    order: 1;
+  }
+  .intro-text {
+    width: 500px;
+    margin-left: 40px;
+    order: 2;
+  }
+  .skill-cards {
+    text-align: center;
+    width: 350px;
+    height: 350px;
+  }
+  .card-icons {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .my-skills {
+    padding: 60px;
+    width: 80vw;
+  }
+  .services {
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 80vw;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .intro-container {
+    padding: 20px;
+  }
+  .intro-image {
+    height: 600px;
+    padding: 0;
+    margin-left: 100px;
+  }
+  .service {
+    position: relative;
+  }
+  .services-illustrations {
+    margin: 170px 0;
+    z-index: -1;
+  }
+  .service-text {
+    position: absolute;
+    margin: 400px;
+    width: 500px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    margin-left: 50px;
+  }
+  .smiley-face {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .intro-text {
+    width: 500px;
+    margin-left: 10px;
+    order: 2;
+  }
+  .intro-image {
+    height: 500px;
+    margin-left: 80px;
+    order: 1;
+  }
+  .service-text {
+    width: 400px;
+    border-radius: 8px;
+    margin-left: 70px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .service-text {
+    width: 400px;
+    border-radius: 8px;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .intro-container {
+    padding: 20px 0;
+  }
+  .intro-image {
+    margin-left: 30px;
+    order: 1;
+  }
+  .intro-text {
+    width: 350px;
+    margin-left: 30px;
+    order: 2;
+  }
+  .card-deck {
+    padding: 30px;
+  }
+  .services {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .service {
+    padding: 20px 30px;
+  }
+  .service-text {
+    width: 400px;
+    border-radius: 8px;
+    margin-left: 50px;
+  }
+  .services-illustrations-img {
+    width: 300px;
+    height: 300px;
+  }
+  .prompt-text {
+    padding: 20px 0px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .service-text {
+    width: 300px;
+    border-radius: 8px;
+    margin-left: 80px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .intro-container {
+    flex-direction: column;
+    margin: 70px 0px 0px 0px;
+    padding: 0 10px;
+  }
+  .intro-text {
+    width: 300px;
+    margin-left: 5px;
+    order: 2;
+  }
+  .intro-image {
+    margin-left: 5px;
+    order: 1;
+  }
+  .prompt-text {
+    padding: 20px 0px;
+  }
+
+  .hero-section {
+    padding: 10px 30px;
+  }
+
+  .my-skills {
+    padding: 30px;
+    width: 80vw;
+  }
+
+  .service-text {
+    width: 300px;
+    border-radius: 8px;
+    margin-left: 30px;
+  }
+  .icon-container {
+    margin: 3px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .skill-cards {
+    width: 300px;
+    height: 300px;
+  }
+  .services {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .service-text {
+    width: 300px;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+  .icon-container {
+    margin: 3px;
+  }
+}
