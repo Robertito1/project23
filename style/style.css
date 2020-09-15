@@ -114,6 +114,9 @@ body {
 }
 .services-illustrations {
   background-color: #1989ac;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 .service-text {
   background-color: #ecf9ff;
@@ -312,10 +315,10 @@ body {
     border-radius: 8px;
     margin-left: 50px;
   }
-  .services-illustrations-img {
+  /* .services-illustrations-img {
     width: 300px;
     height: 300px;
-  }
+  } */
   .prompt-text {
     padding: 20px 0px;
   }
