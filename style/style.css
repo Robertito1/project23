@@ -265,7 +265,7 @@ body {
     position: relative;
   }
   .services-illustrations {
-    margin: 170px 0;
+    margin: 170px 0px;
     z-index: -1;
   }
   .service-text {
@@ -375,7 +375,9 @@ body {
     padding: 30px;
     width: 80vw;
   }
-
+  .services-illustrations-img {
+    width: 350px;
+  }
   .service-text {
     width: 300px;
     border-radius: 8px;
@@ -389,6 +391,9 @@ body {
   .skill-cards {
     width: 300px;
     height: 300px;
+  }
+  .services-illustrations-img {
+    width: 330px;
   }
   .services {
     padding-left: 30px;
