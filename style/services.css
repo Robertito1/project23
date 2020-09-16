@@ -89,8 +89,14 @@ body {
 .book-btn {
   border: none;
   background-color: #ffde25;
+  color: inherit;
   padding: 30px 13px;
   border-radius: 5px;
+}
+.book-btn:hover {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 /* FOR INDIVIDUALS */
 

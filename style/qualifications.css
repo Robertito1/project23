@@ -72,8 +72,13 @@ body {
   background-color: #ffde25;
   padding: 15px 40px;
   border-radius: 5px;
+  color: inherit;
 }
-
+.button:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
 /* footer */
 #main-footer {
   padding: 60px 0px;

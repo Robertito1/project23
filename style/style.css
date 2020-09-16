@@ -69,14 +69,18 @@ body {
 }
 
 .card-deck {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   padding: 60px;
 }
 
 .skill-cards {
   text-align: center;
-  width: 300px;
+  margin: 10px;
+  width: 380px;
   height: 300px;
-  padding: 25px;
+  padding: 20px;
 }
 .card-title {
   padding: 0px 50px;
@@ -92,12 +96,17 @@ body {
 }
 
 .view-details-btn {
-  display: flex;
-  margin: 0 auto;
+  color: inherit;
   border: none;
   background-color: #ffde25;
   padding: 10px 13px;
   border-radius: 5px;
+  text-align: center;
+}
+.view-details-btn:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
 }
 /* SERVICES */
 .heading {
@@ -129,8 +138,14 @@ body {
 .service-btn {
   border: none;
   background-color: #ffde25;
+  color: inherit;
   padding: 10px 13px;
   border-radius: 5px;
+}
+.service-btn:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
 }
 .smiley-face {
   height: 300px;
@@ -198,6 +213,11 @@ body {
   }
   .about-me-text {
     text-align: center;
+  }
+  .card-deck {
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
   }
 }
 
@@ -300,9 +320,7 @@ body {
     margin-left: 30px;
     order: 2;
   }
-  .card-deck {
-    padding: 30px;
-  }
+
   .services {
     padding-left: 30px;
     padding-right: 30px;
