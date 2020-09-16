@@ -26,12 +26,7 @@ body {
   padding: 10px 60px;
   margin-bottom: 100px;
 }
-.hero-area {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 90vh;
-}
+
 .hero-img {
   height: 60vh;
   margin-right: 160px;
@@ -42,7 +37,9 @@ body {
   color: #283e56;
 }
 .hero-text {
-  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
 }
 /* content styles */
 .containers {
@@ -108,13 +105,12 @@ body {
     padding: 25px;
   }
   .hero-text {
-    width: 400px;
+    /* width: 400px; */
   }
   .hero-img {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 60px;
   }
 }
 
@@ -143,12 +139,6 @@ body {
 }
 
 @media only screen and (max-width: 568px) {
-  .hero-img {
-    height: 250px;
-  }
-  .hero-text {
-    padding-bottom: 150px;
-  }
 }
 
 @media only screen and (max-width: 450px) {
