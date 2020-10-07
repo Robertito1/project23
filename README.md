@@ -8,4 +8,4 @@ Hosted on AwardSpace
 -Jquery
 and other animation libraries
 #Live link
-dohrce.com
+http://dohrce.com
