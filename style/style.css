@@ -42,14 +42,12 @@ body {
 }
 
 /* ABOUT ME */
-.image-container {
-  padding: 0 40px 0 40px;
-}
+
 .intro-image {
-  height: 80vh;
   display: flex;
   width: 100%;
   margin: 0 auto;
+  height: 90vh;
 }
 .intro-container {
   padding: 60px 100px 60px 100px;
@@ -112,13 +110,18 @@ body {
 }
 
 .service {
+  margin-bottom: 30px;
+  padding: 60px 60px 0 60px;
 }
 .services-illustrations {
   background-color: #1989ac;
 }
 .service-text {
   background-color: #ecf9ff;
+  height: 250px;
+  padding-top: 10px;
 }
+
 .service-text-title {
   color: #283e56;
   font-weight: 700;
@@ -160,14 +163,41 @@ body {
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1290px) {
+  .scrum-meeting-img {
+    padding-left: inherit;
+  }
+  .intro-container {
+    padding: 60px 20px 60px 20px;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .intro-container {
+    padding: 60px 50px 60px 50px;
+  }
 }
 @media only screen and (max-width: 992px) {
+  .scrum-meeting-img {
+    padding-left: 0;
+  }
   .section-description {
     width: 100%;
   }
-  .image-container {
-    margin: 60px 400px 60px 400px;
-    /* padding: 0; */
+
+  .services-illustrations {
+    z-index: -1;
+  }
+  .service-text {
+    background-color: #f8f8f8;
+    position: relative;
+    margin-top: -30px;
+    width: 60% !important;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .intro-image {
+    width: 60%;
   }
 }
 @media only screen and (max-width: 950px) {
@@ -179,6 +209,9 @@ body {
     justify-content: center;
     align-items: center;
     padding: 30px;
+  }
+  .intro-image {
+    width: 75%;
   }
 }
 
@@ -198,48 +231,55 @@ body {
     padding-right: 60px;
     width: 80vw;
   }
+  .intro-image {
+    width: 85%;
+  }
 }
 @media only screen and (max-width: 767px) {
-  .service {
-    position: relative;
-  }
-  .services-illustrations {
-    z-index: -1;
-  }
-  .service-text {
-    position: absolute;
-    background-color: #f8f8f8;
-  }
-  .smiley-face {
-  }
 }
 
 @media only screen and (max-width: 680px) {
+  .intro-image {
+    height: 80vh;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-  .image-container {
-    padding: 0 40px 0 40px;
+  .intro-image {
+    height: 70vh;
   }
 }
 
 @media only screen and (max-width: 568px) {
+  .intro-image {
+    height: 63vh;
+  }
   .services {
     padding-left: 30px;
     padding-right: 30px;
   }
-
+  .scrum-meeting-img {
+    width: inherit;
+    height: 250px;
+  }
+  .service {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   .prompt-text {
     padding: 20px 0px;
   }
 }
 @media only screen and (max-width: 500px) {
+  .intro-image {
+    width: 90%;
+  }
 }
 @media only screen and (max-width: 450px) {
-  .intro-container {
-    padding: 60px 20px 60px 20px;
+  .intro-image {
+    height: 55vh;
+    width: 100%;
   }
-
   .prompt-text {
     padding: 20px 0px;
   }
@@ -250,6 +290,9 @@ body {
 
   .icon-container {
     margin: 3px;
+  }
+  .service-text {
+    padding-top: 0;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -265,5 +308,9 @@ body {
 
   .icon-container {
     margin: 3px;
+  }
+  .intro-image {
+    height: 50vh;
+    width: 100%;
   }
 }
