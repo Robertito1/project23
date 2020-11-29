@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
         integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
     <title>Dorcas Ekong</title>
 </head>
@@ -107,11 +108,23 @@
             </div>
         </div>
     </div>
-    <div class="services container-fluid">
+    <div data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="20"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center" class="services container-fluid">
         <h3 class="heading p-4 text-center text-md-left">Services</h3>
         <p class="text-center text-md-left section-description">Here are a summary of the services I render as a human resource(HR) manager</p>
     </div>
-     <div class="container-fluid service">
+     <div data-aos="fade-right"
+     data-aos-offset="200"
+     data-aos-delay="20"
+     data-aos-duration="1000"
+     data-aos-easing="ease-in-out"
+     data-aos-once="false"
+     data-aos-anchor-placement="top-center" class="container-fluid service">
         <div class="row d-flex justify-content-center">
             <div class="col-12 col-lg-5 services-illustrations d-flex justify-content-center">
                 <img class="services-illustrations-img scrum-meeting-img"
@@ -128,7 +141,14 @@
         </div>
     </div>
 
-    <div class="container-fluid service">
+    <div data-aos="fade-left"
+    data-aos-offset="200"
+    data-aos-delay="20"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center" class="container-fluid service">
         <div class="row d-flex justify-content-center">
             <div class="col-11 col-lg-7 order-2 order-lg-1 service-text">
                 <h5 class="p-1 service-text-title text-center pt-2 text-lg-left">HR for Individuals</h5>
@@ -147,7 +167,7 @@
     <div class="container-fluid service ">
         <div class="row">
             <div class="col-sm-12 col-lg-5 d-flex justify-content-center">
-                <img class="smiley-face"
+                <img class="smiley-face animate__animated animate__rubberBand"
                     src="./assets/kisspng-smiley-emoticon-black-and-white-computer-icons-cli-smiley-face-images-5aaec7687c72d8.3241265215214037525098.png" />
             </div>
             <div class="col-sm-12 col-lg-7 prompt-text">
@@ -193,7 +213,11 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
      <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
      <script src="index.js"></script>
+     <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>

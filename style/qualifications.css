@@ -134,6 +134,9 @@ body {
     order: 2;
     justify-content: center;
   }
+  .btn-div {
+    justify-content: center;
+  }
 }
 @media only screen and (max-width: 680px) {
 }

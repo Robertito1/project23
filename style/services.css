@@ -15,40 +15,28 @@ body {
 }
 
 /* HERO SECTION */
-.hero-section {
-  padding: 10px 60px;
+.nav-section {
+  padding: 10px 5px;
   margin-bottom: 10px;
 }
-.hero-area {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 90vh;
-}
+
 .our-services {
   color: #283e56;
 }
-.hero-text {
-  width: 30vw;
-}
 
 .hero-img {
-  height: 80vh;
+  width: 100%;
 }
-
+.hero-area {
+  margin-bottom: 40px;
+}
 /* FOR BUSINESSES */
 .business,
 .individual {
-  padding: 20px 60px;
+  padding: 20px 15px;
   margin-bottom: 60px;
 }
-.title {
-  /* padding: 0px 60px; */
-}
-.definition {
-  /* padding :0px 60px; */
-  width: 50vw;
-}
+
 .offers {
   display: flex;
   flex-direction: column;
@@ -56,6 +44,7 @@ body {
   border: 1px solid rgb(156, 156, 156);
   border-radius: 5px;
 }
+
 .computer-img,
 .individual-icon {
   display: flex;
@@ -76,9 +65,9 @@ body {
 }
 
 .offer-text {
-  display: flex;
+  /* display: flex;
   margin: auto 0;
-  background-color: #ffffff;
+  background-color: #ffffff; */
 }
 
 .book-btn-div {
@@ -127,9 +116,6 @@ body {
   .hero-img {
     height: 70vh;
   }
-  .hero-area {
-    height: 70vh;
-  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -140,68 +126,41 @@ body {
     z-index: -1;
   }
   .offer-text {
-    display: flex;
+    /* display: flex;
     padding: 30px;
     justify-content: center;
-    background-color: #f8f8f8;
     border-radius: 10px;
     width: 500px;
     height: 200px;
     position: absolute;
     margin-top: 180px;
-    margin-left: 50px;
+    margin-left: 50px; */
+    background-color: #f8f8f8;
   }
 }
 @media only screen and (max-width: 680px) {
-  .hero-img {
-    display: flex;
-    height: 60vh;
-    width: 250px;
-  }
-  .hero-section {
-    padding: 10px 30px;
-    margin-bottom: 10px;
-  }
-  .offer-text {
+  /* .offer-text {
     width: 430px;
-  }
+  } */
 }
 @media only screen and (max-width: 620px) {
-  .offer-text {
+  /* .offer-text {
     width: 330px;
     height: inherit;
     margin-bottom: 20px;
-  }
+  } */
   .offers {
     margin-bottom: 300px;
   }
 }
 
 @media only screen and (max-width: 568px) {
-  .hero-section {
-    margin-bottom: 50px;
-  }
-  .hero-img {
-    display: flex;
-    height: 60vh;
-    width: 200px;
-  }
-  .hero-text {
-    width: 300px;
-  }
-  .hero-area {
-    margin: 50px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 50vh;
-  }
 }
 @media only screen and (max-width: 515px) {
-  .offer-text {
+  /* .offer-text {
     width: 280px;
     margin-left: 30px;
-  }
+  } */
 
   .biz-btn {
     margin-top: 350px;
@@ -213,37 +172,24 @@ body {
     padding: 20px 30px;
     margin-bottom: 60px;
   }
-  .hero-img {
-    display: flex;
-    height: 40vh;
-    width: 150px;
-  }
-  .hero-section {
-    margin-bottom: 20px;
-  }
-  .hero-text {
-    width: 300px;
-  }
+
   .icon-container {
     margin: 3px;
   }
-  .offer-text {
+  /* .offer-text {
     margin-left: 45px;
-  }
+  } */
 }
 @media only screen and (max-width: 415px) {
-  .offer-text {
+  /* .offer-text {
     margin-left: 36px;
-  }
+  } */
 }
 @media only screen and (max-width: 375px) {
-  .hero-section {
-    padding: 10px 30px;
-  }
   .icon-container {
     margin: 3px;
   }
-  .offer-text {
+  /* .offer-text {
     margin-left: 16px;
-  }
+  } */
 }
