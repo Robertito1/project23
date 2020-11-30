@@ -34,6 +34,7 @@ body {
 }
 .hero-header {
   font-weight: 900;
+  font-size: 30px !important;
   color: #283e56;
 }
 .hero-text {
@@ -89,7 +90,7 @@ body {
 .icon-container {
   border-radius: 50%;
   margin: 10px;
-  padding: 10px;
+  padding: 7px;
   background-color: #38526f;
   color: #ffffff;
 }
@@ -104,9 +105,7 @@ body {
   .hero-section {
     padding: 25px;
   }
-  .hero-text {
-    /* width: 400px; */
-  }
+
   .hero-img {
     display: flex;
     justify-content: center;
@@ -138,6 +137,7 @@ body {
     justify-content: center;
   }
 }
+
 @media only screen and (max-width: 680px) {
 }
 

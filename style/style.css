@@ -25,8 +25,8 @@ body {
   /* background-color: #010101; */
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.8)
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.9)
     ),
     url("../assets/edit1\ \(2\).jpg");
   background-size: cover;
@@ -75,7 +75,7 @@ body {
   padding: 20px;
 }
 .card-title {
-  padding: 0px 50px;
+  padding: 0px 10px;
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
@@ -112,6 +112,7 @@ body {
 .service {
   margin-bottom: 30px;
   padding: 60px 60px 0 60px;
+  overflow: hidden;
 }
 .services-illustrations {
   background-color: #1989ac;
@@ -156,7 +157,7 @@ body {
 .icon-container {
   border-radius: 50%;
   margin: 10px;
-  padding: 10px;
+  padding: 7px;
   background-color: #38526f;
   color: #ffffff;
 }
@@ -176,6 +177,9 @@ body {
   }
 }
 @media only screen and (max-width: 992px) {
+  .intro-container {
+    padding: 60px 20px 60px 20px;
+  }
   .scrum-meeting-img {
     padding-left: 0;
   }
@@ -201,9 +205,9 @@ body {
   }
 }
 @media only screen and (max-width: 950px) {
-  .about-me-text {
+  /* .about-me-text {
     text-align: center;
-  }
+  } */
   .card-deck {
     flex-direction: column;
     justify-content: center;
@@ -295,10 +299,16 @@ body {
     padding-top: 0;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 415px) {
   .skill-cards {
     width: 300px;
     height: 300px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .skill-cards {
+    width: 280px;
+    height: 280px;
   }
 
   .services {
